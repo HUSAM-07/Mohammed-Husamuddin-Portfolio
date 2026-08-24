@@ -5,7 +5,7 @@ import Image from 'next/image';
 export const DATA = {
   name: "Husam",
   initials: "MHD",
-  url: "https://www.mohammedhusamuddin.me/",
+  url: "https://www.mohusam.com",
   location: "Dubai, U.A.E",
   locationLink: "https://www.google.com/maps/place/Dubai",
   description:
@@ -248,6 +248,35 @@ export const DATA = {
         "",
     },
     {
+      title: "A Trade A Day",
+      href: "https://atradeaday.com",
+      dates: "March 2026 - Present",
+      active: true,
+      description:
+        "Designed and built a real-time, AI-powered market intelligence PWA that streams live crypto and commodity data, detects technical patterns, and synthesizes quantitative indicators with multi-model analysis into clear, risk-defined trade plans.",
+      technologies: [
+        "Risk Management",
+        "AI modeling",
+        "Ticks Streaming",
+        "Technical Analysis",
+        "Technical Indicators",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://atradeaday.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: {
+        src: "/images/atradeaday.png",
+        width: 1200,
+        height: 630,
+      },
+      video:
+        "",
+    },
+    {
       title: "UniDash — Founder & Developer",
       href: "https://unidash.mohammedhusamuddin.me/",
       dates: "July 2024 - Present",
@@ -283,40 +312,6 @@ export const DATA = {
         height: 630,
       },
       video: "",
-    },
-    {
-      title: "WRKForce",
-      href: "https://www.wrkforceae.com/",
-      dates: "January 2025 - Present",
-      active: true,
-      description:
-        "Find live and active internships in U.A.E",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Clerk",
-        "Stripe",
-        "NodeJs",
-        "Firebase",
-        "Sanity",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.wrkforceae.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: {
-        src: "/wrkforce.png",
-        width: 1200,
-        height: 630,
-      },
-      video:
-        "",
     },
     {
       title: "Insight Hedge",
